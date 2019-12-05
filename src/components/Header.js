@@ -11,6 +11,7 @@ class Header extends Component {
         <HeaderItem name="Prosjekter"/>
         <HeaderItem name="Ta kontakt"/>
       </Container>
+      
     )
   }
 }
@@ -18,7 +19,8 @@ class Header extends Component {
 
 const Container = styled.div`
 position: fixed;
-background-image: linear-gradient(45deg, rgba(56, 224, 101), rgba(54, 97, 255, 1) 150%);
+/*background-image: linear-gradient(45deg, rgba(56, 224, 101), rgba(54, 97, 255, 1) 150%);*/
+background-color: rgba(20, 97, 200, 1);
 top:0;
 width: 100%;
 display: flex;

@@ -4,24 +4,22 @@ import styled from "styled-components"
 
 const Container = styled.div`
 height: 50em;
-background: darkgrey;
-margin-top: 5em;
+width: 65%;
+/*background: darkgrey;
 min-height: 100%;
-text-align: center;
+margin: auto;
 `
 
 const About = () => {
 
   return (
     <Container>
-      <h2>Om meg</h2>
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-        culpa qui officia deserunt mollit anim id est laborum."</p>
+      <h2 style={{paddingTop:"4em", fontSize:"4em"}}>Bjarte Botnevik</h2>
+      <p>I am a student at University of Stavanger. I finished my bachelor's degree in computer engineering spring of 2019. I am
+        currently finishing my master's degree in Data Science, which is expected to be done in the spring of 2021. In my spare
+        time I do some web development, using mostly React.js. I also do some small projects with Arduino and some in 
+        Data Science.
+      </p>
     </Container>
   )
 

@@ -2,13 +2,16 @@
   "projects": [
     {
       "id": 1,
-      "title": "project1",
-      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Information site",
+      "descr": "In the summer of 2019 I taught myself React.js. I made this site while learning, so that I had a project to apply the things that I learned. The goal was to make a website where I found the information that I needed in a day. Some of the websites I visited the most was to get updateded on the news, check the weather and check what football games that were being played today. Therefore I made a website that has all this information on one website.",
+      "type": "Web Development",
+      "link": "https://github.com/bjabot12/infosite"
     },
     {
       "id": 2,
-      "title": "project2",
-      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Portfolio site",
+      "descr": "A simple website I made with React.js to easily present the projects that I have done. ",
+      "type": "Web Development"
     }
   ]
 }
