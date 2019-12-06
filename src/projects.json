@@ -12,6 +12,12 @@
       "title": "Portfolio site",
       "descr": "A simple website I made with React.js to easily present the projects that I have done. ",
       "type": "Web Development"
+    },
+    {
+      "id": 3,
+      "title": "API for projects",
+      "descr": "An API that provides data for two projects that I have made. It collects data from other APIs, such as news data, weather data and football data.",
+      "type": "API/Back-end"
     }
   ]
 }
