@@ -5,19 +5,32 @@
       "title": "Information site",
       "descr": "In the summer of 2019 I taught myself React.js. I made this site while learning, so that I had a project to apply the things that I learned. The goal was to make a website where I found the information that I needed in a day. Some of the websites I visited the most was to get updateded on the news, check the weather and check what football games that were being played today. Therefore I made a website that has all this information on one website.",
       "type": "Web Development",
-      "link": "https://github.com/bjabot12/infosite"
+      "link": "https://github.com/bjabot12/infosite",
+      "tags": ["React.js", "Material UI"]
     },
     {
       "id": 2,
       "title": "Portfolio site",
       "descr": "A simple website I made with React.js to easily present the projects that I have done. ",
-      "type": "Web Development"
+      "type": "Web Development",
+      "link": "https://github.com/bjabot12/portfolio-site",
+      "tags": ["React.js"]
     },
     {
       "id": 3,
       "title": "API for projects",
-      "descr": "An API that provides data for two projects that I have made. It collects data from other APIs, such as news data, weather data and football data.",
-      "type": "API/Back-end"
+      "descr": "An API that provides data for two projects that I have made. It collects data from other APIs, such as news data, weather data and football data. It was made with Python and Flask",
+      "type": "API/Back-end",
+      "link":"https://github.com/bjabot12/info-backend",
+      "tags": ["Python", "Flask"]
+    },
+    {
+      "id": 4,
+      "title": "TODO list with React.js",
+      "descr": "A simple TODO list I made. It was the very first project I built with React.js. Simply followed a youtube tutorial on how to kake a TODO list in React.js",
+      "type": "Web Development",
+      "link":"https://github.com/bjabot12/react-todo",
+      "tags": ["React.js"]
     }
   ]
 }

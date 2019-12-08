@@ -1,13 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-
 const Container = styled.div`
-height: 50em;
-width: 65%;
-/*background: darkgrey;
-min-height: 100%;
-margin: auto;
+  height: 50em;
+  width: 80%;
+  /*background: darkgrey;*/ 
+  min-height: 100%;
+  margin: auto;
 `
 
 const About = () => {

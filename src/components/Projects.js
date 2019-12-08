@@ -1,32 +1,32 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import myProjects from './../projects.json';
+import myProjects from './../projects.json'
 import ProjectItem from "./ProjectItem"
 
 // Container for the project section
 const Container = styled.div`
-height: 50em;
-text-align: center;
+  text-align: center;
+  padding-bottom: 20em;
 `
 
 // Container for each project
 const ProjContainer = styled.div`
-border: 1px;
-width: 65%;
-margin: auto;
+  border: 1px;
+  width: 80%;
+  margin: auto;
 `
 
 const Projects = () => {
 
   // Using hooks to read from a json file
-  const proj = useState(myProjects)
-  const p = proj[0]
+  const projects = useState(myProjects)
+  const project = projects[0]
 
   return (
     <Container>
-      {p ? (
+      {project ? (
         <React.Fragment>
-          {p.projects.map(proj => <ProjContainer key={proj.id}>
+          {project.projects.map(proj => <ProjContainer key={proj.id}>
             <ProjectItem project={proj}/>
             {/* <h2>{proj.title}</h2>
             <p>{proj.descr}</p> */}
