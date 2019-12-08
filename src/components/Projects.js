@@ -24,6 +24,7 @@ const Projects = () => {
 
   return (
     <Container>
+      <h1 style={{fontSize:"3em", marginBottom:"2em"}}>Projects</h1>
       {project ? (
         <React.Fragment>
           {project.projects.map(proj => <ProjContainer key={proj.id}>

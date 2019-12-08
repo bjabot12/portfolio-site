@@ -35,7 +35,7 @@ const ProjectItem = (props) => {
 
   return (
     <Container>
-      <h1>{props.project.title}</h1>
+      <h2>{props.project.title}</h2>
       <p>{props.project.type}</p>
       <div style={{position:"absolute", top:"0", right:"0", padding:"2em", paddingRight:"6em"}}>
         <ul>

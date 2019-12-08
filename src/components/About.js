@@ -14,6 +14,7 @@ const About = () => {
   return (
     <Container>
       <h2 style={{paddingTop:"4em", fontSize:"4em"}}>Bjarte Botnevik</h2>
+      <p style={{marginTop:"-2em", marginBottom:"3em"}}><i>Portfolio site</i></p>
       <p>I am a student at University of Stavanger. I finished my bachelor's degree in computer engineering spring of 2019. I am
         currently finishing my master's degree in Data Science, which is expected to be done in the spring of 2021. In my spare
         time I do some web development, using mostly React.js. I also do some small projects with Arduino and some in 
