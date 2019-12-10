@@ -6,7 +6,7 @@ import ProjectItem from "./ProjectItem"
 // Container for the project section
 const Container = styled.div`
   text-align: center;
-  padding-bottom: 20em;
+  padding-bottom: 25em;
 `
 
 // Container for each project

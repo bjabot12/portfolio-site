@@ -20,7 +20,7 @@ const ProjectItem = (props) => {
   
   return (
     <Container>
-      <h2>{props.project.title}</h2>
+      <h1>{props.project.title}</h1>
       <a href={props.project.host} target="_blank" rel="noopener noreferrer" style={{color:"black"}}>{props.project.host}</a>
       <p>{props.project.type}</p>
       { isDesktop ? (<div style={{position:"absolute", top:"0", right:"0", padding:"2em", paddingRight:"6em"}}>

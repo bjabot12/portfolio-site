@@ -10,6 +10,10 @@ a.active {
   border-bottom: 2px solid white;
 }
 
+p {
+  font-size: 1.3em;
+}
+
 a:hover {
   cursor: pointer;
 }

@@ -6,7 +6,7 @@ import { Link } from "react-scroll"
 
 const Container = styled.div`
   width: 80%;
-  min-height: 100%;
+  /*height: 100vh;*/
   margin: auto;
 `
 
@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <Container id="about">
-      <h2 style={{paddingTop:"3em", fontSize:"4em"}}>Bjarte Botnevik</h2>
+      <h2 style={{paddingTop:"4em", fontSize:"4em"}}>Bjarte Botnevik</h2>
       <p style={{marginTop:"-2em", marginBottom:"3em"}}><i>Portfolio site</i></p>
       <p>I am a student at University of Stavanger. I finished my bachelor's degree in computer engineering spring of 2019. I am
         currently finishing my master's degree in Data Science, which is expected to be done in the spring of 2021. In my spare
@@ -29,7 +29,7 @@ const About = () => {
         offset={-150}
         duration= {700}
       >
-        <Fab style={{marginTop:"9em", marginBottom:"10em", color:"white", backgroundColor:"rgba(20, 97, 200, 1)"}}>
+        <Fab style={{marginTop:"13em", marginBottom:"10em", color:"white", backgroundColor:"rgba(20, 97, 200, 1)"}}>
           <ArrowDownwardIcon/>
         </Fab>
       </Link>
