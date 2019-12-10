@@ -7,7 +7,7 @@
       "type": "Web Development",
       "link": "https://github.com/bjabot12/infosite",
       "tags": ["React.js", "Material UI"],
-      "host": "info-siden.herokuapp.com"
+      "host": "https://info-siden.herokuapp.com"
     },
     {
       "id": 2,
