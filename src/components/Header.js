@@ -3,6 +3,7 @@ import HeaderItem from "./HeaderItem"
 import styled from "styled-components"
 import imagegh from "../images/ghw.png"
 import imageli from "../images/li.png"
+import { Link } from "react-scroll"
 
 class Header extends Component {
 
@@ -10,8 +11,29 @@ class Header extends Component {
     return (
       <Container>
         <div style={{width:"67%", display:"flex"}}>
-          <HeaderItem name="About me"/>
-          <HeaderItem name="Projects"/>
+        {/* Link to where I found the smooth scrolling tutorial.
+        https://scotch.io/tutorials/implementing-smooth-scrolling-in-react */}
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-120}
+            duration= {700}
+            style={{flex:"1"}}
+          >
+            <HeaderItem name="About me"/></Link>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration= {700}
+            style={{flex:"1"}}
+          >
+            <HeaderItem name="Projects"/>
+          </Link>
         </div>
         <div style={{flex:"1", padding:".8em"/*textAlign:"right", marginRight:"3em"*/}}>
           <a href="https://github.com/bjabot12" target="_blank" rel="noopener noreferrer">
@@ -36,8 +58,8 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   z-index: 2;
-  /* margin-bottom: 10em;*/
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
 `
-
 
 export default Header

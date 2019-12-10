@@ -3,11 +3,6 @@ import styled from "styled-components"
 import image from '../images/ghb.png'
 
 const Container = styled.div`
-  /*display: flex;
-  flex-direction: column;
-  justfiy-conent: space-between;
-  align-items: center;*/
-  /*flex: 1;*/
   background: white;
   padding: 1em;
   margin: 1em;
@@ -20,30 +15,26 @@ const Container = styled.div`
 `
 
 const ProjectItem = (props) => {
-  // const [gif, setGif] = useState()
 
-  // useEffect(() => {
-  //   // api call
-  //   const fetchData = async () => {
-  //     let res = await fetch('')
-  //     let json = await res.json()
-  //     console.log(json)
-  //     setGif(json[0])
-  //   }
-  //   fetchData()
-  // }, [])
-
+  let isDesktop = window.innerWidth > 730
+  
   return (
     <Container>
       <h2>{props.project.title}</h2>
+      <a href={props.project.host} target="_blank" rel="noopener noreferrer" style={{color:"black"}}>{props.project.host}</a>
       <p>{props.project.type}</p>
-      <div style={{position:"absolute", top:"0", right:"0", padding:"2em", paddingRight:"6em"}}>
+      { isDesktop ? (<div style={{position:"absolute", top:"0", right:"0", padding:"2em", paddingRight:"6em"}}>
         <ul>
-        {props.project.tags.map(tag => 
-          <li key={tag}>{tag}</li>)}
+          {props.project.tags.map(tag => 
+            <li key={tag}>{tag}</li>
+          )}
         </ul>
-      </div>
-      <a href={props.project.link} target="_blank" rel="noopener noreferrer" style={{/*textAlign: "right", marginRight:"2em"*/}}>
+      </div>)
+      :
+      <React.Fragment></React.Fragment>
+      }
+      
+      <a href={props.project.link} target="_blank" rel="noopener noreferrer">
         <img src={image} width="40" height="40" alt="github" />
       </a>
       <p>{props.project.descr}</p>

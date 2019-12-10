@@ -9,7 +9,7 @@ color: white;
 
 const HeaderItem = (props) => {
   return (
-    <Container>
+    <Container >
       <h3>{props.name}</h3>
     </Container>
   )

@@ -5,6 +5,14 @@
   position: relative;
 }
 
+/* Both a tags is for smooth scrolling*/
+a.active {
+  border-bottom: 2px solid white;
+}
+
+a:hover {
+  cursor: pointer;
+}
 
 html::-webkit-scrollbar {
   width: 10px;
