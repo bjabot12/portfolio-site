@@ -6,7 +6,10 @@
       "descr": "In the summer of 2019 I taught myself React.js. I made this site while learning, so that I had a project to apply the things that I learned. The goal was to make a website where I found the information that I needed in a day. Some of the websites I visited the most was to get updateded on the news, check the weather and check what football games that were being played today. Therefore I made a website that has all this information on one website.",
       "type": "Web Development",
       "link": "https://github.com/bjabot12/infosite",
-      "tags": ["React.js", "Material UI"],
+      "tags": [
+        "React.js",
+        "Material UI"
+      ],
       "host": "https://info-siden.herokuapp.com"
     },
     {
@@ -15,7 +18,10 @@
       "descr": "A simple website I made with React.js to easily present the projects that I have done. ",
       "type": "Web Development",
       "link": "https://github.com/bjabot12/portfolio-site",
-      "tags": ["React.js", "Material UI"],
+      "tags": [
+        "React.js",
+        "Material UI"
+      ],
       "host": ""
     },
     {
@@ -24,7 +30,10 @@
       "descr": "An API that provides data for two projects that I have made. It collects data from other APIs, such as news data, weather data and football data. It was made with Python and Flask",
       "type": "API/Back-end",
       "link": "https://github.com/bjabot12/info-backend",
-      "tags": ["Python", "Flask"],
+      "tags": [
+        "Python",
+        "Flask"
+      ],
       "host": ""
     },
     {
@@ -32,8 +41,23 @@
       "title": "TODO list with React.js",
       "descr": "A simple TODO list I made. It was the very first project I built with React.js. Simply followed a youtube tutorial on how to kake a TODO list in React.js",
       "type": "Web Development",
-      "link":"https://github.com/bjabot12/react-todo",
-      "tags": ["React.js"],
+      "link": "https://github.com/bjabot12/react-todo",
+      "tags": [
+        "React.js"
+      ],
+      "host": ""
+    },
+    {
+      "id": 5,
+      "title": "Small weather station for desk",
+      "descr": "A small weahter station that is made with a ESP8266 and an OLED display. The OLED display shows the current temperature and weather type. The data is fetched from the API that is explained above, and the display gets updated about every 30 minutes.",
+      "type": "Arduino",
+      "link": "https://github.com/bjabot12/weather-station",
+      "tags": [
+        "Arduino",
+        "NodeMCU ESP8266",
+        "OLED display"
+      ],
       "host": ""
     }
   ]
