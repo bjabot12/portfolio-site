@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Information site",
-      "descr": "In the summer of 2019 I taught myself React.js. I made this site while learning, so that I had a project to apply the things that I learned. The goal was to make a website where I found the information that I needed in a day. Some of the websites I visited the most was to get updateded on the news, check the weather and check what football games that were being played today. Therefore I made a website that has all this information on one website.",
+      "descr": "In the summer of 2019 I taught myself React.js. I made this site while learning, so that I had a project to apply the things that I had learned. The goal was to make a website where I found the information that I needed in a day. Some of the websites I visited the most was to get updateded on the news, to check the weather and to check what football games that were being played today. Therefore I made a website that has all this information on one website.",
       "type": "Web Development",
       "link": "https://github.com/bjabot12/infosite",
       "tags": [
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "title": "Portfolio site",
-      "descr": "A simple website I made with React.js to easily present the projects that I have done. ",
+      "descr": "A simple website I made with React.js to easily present the projects that I have done. Made it to have a portfolio with my most relevant projects.",
       "type": "Web Development",
       "link": "https://github.com/bjabot12/portfolio-site",
       "tags": [
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "title": "TODO list with React.js",
-      "descr": "A simple TODO list I made. It was the very first project I built with React.js. Simply followed a youtube tutorial on how to kake a TODO list in React.js",
+      "descr": "A simple TODO list I made. It was the very first project I built with React.js. Simply followed a youtube tutorial on how to kmake a TODO list in React.js",
       "type": "Web Development",
       "link": "https://github.com/bjabot12/react-todo",
       "tags": [
@@ -49,8 +49,8 @@
     },
     {
       "id": 5,
-      "title": "Small weather station for desk",
-      "descr": "A small weahter station that is made with a ESP8266 and an OLED display. The OLED display shows the current temperature and weather type. The data is fetched from the API that is explained above, and the display gets updated about every 30 minutes.",
+      "title": "Small weather station for my desk",
+      "descr": "A small weahter station that is made with a ESP8266 and an OLED display, and written in Arduino. The OLED display shows the current temperature and weather type. The data is fetched from the API that is explained above, and the display gets updated about every 30 minutes.",
       "type": "Arduino",
       "link": "https://github.com/bjabot12/weather-station",
       "tags": [
