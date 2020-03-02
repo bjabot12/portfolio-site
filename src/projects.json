@@ -15,7 +15,7 @@
     {
       "id": 2,
       "title": "Random Forest regressor",
-      "descr": "My first submit to a kaggle competition. It was part of the Data Mining course I had in UiS. Built a binary Decision Tree and Random Forsest from scratch.  ",
+      "descr": "My first submit to a kaggle competition. It was part of the Data Mining course I had in UiS. Built a binary Decision Tree and Random Forest from scratch.",
       "type": "Data Science",
       "link": "https://github.com/bjabot12/house-price",
       "tags": [
