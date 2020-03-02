@@ -18,7 +18,7 @@ const About = () => {
       <p style={{marginTop:"-2em", marginBottom:"3em"}}><i>Portfolio site</i></p>
       <p>I am a student at University of Stavanger. I finished my bachelor's degree in computer engineering spring of 2019. I am
         currently finishing my master's degree in Data Science, which is expected to be done in the spring of 2021. In my spare
-        time I do some web development, using mostly React.js. I also do some projects in Data Sciecne,  and some small projects with Arduino.
+        time I do some web development, using mostly React.js. I also do some projects in Data Science,  and some small projects with Arduino.
       </p> 
       <Link
         activeClass="active"
