@@ -14,6 +14,19 @@
     },
     {
       "id": 2,
+      "title": "Random Forest regressor",
+      "descr": "My first submit to a kaggle competition. It was part of the Data Mining course I had in UiS. Built a binary Decision Tree and Random Forsest from scratch.  ",
+      "type": "Data Science",
+      "link": "https://github.com/bjabot12/house-price",
+      "tags": [
+        "Data Science",
+        "Jupyter Notebook",
+        "Kaggle"
+      ],
+      "host": ""
+    },
+    {
+      "id": 3,
       "title": "Portfolio site",
       "descr": "A simple website I made with React.js to easily present the projects that I have done. Made it to have a portfolio with my most relevant projects.",
       "type": "Web Development",
@@ -25,7 +38,7 @@
       "host": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "API for projects",
       "descr": "An API that provides data for two projects that I have made. It collects data from other APIs, such as news data, weather data and football data. It was made with Python and Flask",
       "type": "API/Back-end",
@@ -37,7 +50,7 @@
       "host": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "TODO list with React.js",
       "descr": "A simple TODO list I made. It was the very first project I built with React.js. Simply followed a youtube tutorial on how to kmake a TODO list in React.js",
       "type": "Web Development",
@@ -48,7 +61,7 @@
       "host": ""
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Small weather station for my desk",
       "descr": "A small weahter station that is made with a ESP8266 and an OLED display, and written in Arduino. The OLED display shows the current temperature and weather type. The data is fetched from the API that is explained above, and the display gets updated about every 30 minutes.",
       "type": "Arduino",
