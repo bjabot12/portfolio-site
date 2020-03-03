@@ -6,7 +6,6 @@ import { Link } from "react-scroll"
 
 const Container = styled.div`
   width: 80%;
-  /*height: 100vh;*/
   margin: auto;
 `
 
